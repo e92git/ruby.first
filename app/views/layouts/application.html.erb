@@ -13,7 +13,10 @@
 <p class="notice"><%= notice %></p>
 <p class="alert"><%= alert %></p>
 
-<%= render 'devise/menu/top' %>
+<div>
+  <%= link_to 'Home', "/" %>
+  <%= render 'devise/menu/top' %>
+</div>
 
 <%= yield %>
 
