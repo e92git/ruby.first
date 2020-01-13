@@ -222,6 +222,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   devise
+  i18n
   jbuilder (~> 2.7)
   mysql2 (>= 0.4.4)
   pry-rails
