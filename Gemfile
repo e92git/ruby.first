@@ -28,6 +28,8 @@ gem 'jbuilder', '~> 2.7'
 #  Ivan New
 gem 'devise'
 gem 'i18n'
+gem 'omniauth-facebook'
+gem 'omniauth-vkontakte'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false

@@ -2948,3 +2948,1703 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 52ms (Views: 50.3ms | ActiveRecord: 0.6ms | Allocations: 7244)
 
 
+Started DELETE "/users/sign_out" for ::1 at 2020-01-13 22:37:39 +0700
+  [1m[35m (43.3ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+
+ActiveRecord::PendingMigrationError - Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+:
+
+Started POST "/__better_errors/2699a9bd04bb4deb/variables" for ::1 at 2020-01-13 22:37:40 +0700
+Started DELETE "/users/sign_out" for ::1 at 2020-01-13 22:38:11 +0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JYNGIJtGu5SrNLm303heDkZt0ZdIza7bOGHVela0pYVuUSeyWZxD/BwxFHCuyG5olNHn3FVutg2UuVUbMZqQjA=="}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms (ActiveRecord: 0.5ms | Allocations: 2391)
+
+
+Started GET "/" for ::1 at 2020-01-13 22:38:11 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 126)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.9ms | Allocations: 110)
+Completed 200 OK in 86ms (Views: 85.0ms | ActiveRecord: 0.0ms | Allocations: 6236)
+
+
+Started GET "/" for ::1 at 2020-01-13 22:38:21 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 109)
+Completed 200 OK in 48ms (Views: 46.9ms | ActiveRecord: 0.0ms | Allocations: 6229)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-01-13 22:38:24 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 258)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1206)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 82)
+Completed 200 OK in 62ms (Views: 60.4ms | ActiveRecord: 0.0ms | Allocations: 7617)
+
+
+Started GET "/" for ::1 at 2020-01-13 22:38:27 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 125)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 109)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms | Allocations: 6212)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-01-13 22:38:28 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 258)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1199)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 82)
+Completed 200 OK in 48ms (Views: 46.6ms | ActiveRecord: 0.0ms | Allocations: 7616)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-01-13 22:39:01 +0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 14.7ms | Allocations: 206)
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 249)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 21.9ms | Allocations: 2001)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 79ms (Views: 77.7ms | ActiveRecord: 0.0ms | Allocations: 9088)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-01-13 22:39:04 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 259)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1209)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 65ms (Views: 64.0ms | ActiveRecord: 0.0ms | Allocations: 7632)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-01-13 22:39:28 +0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 202)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1213)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 82)
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.0ms | Allocations: 7567)
+
+
+Started GET "/" for ::1 at 2020-01-13 22:45:00 +0700
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 134)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 111)
+Completed 200 OK in 55ms (Views: 54.2ms | ActiveRecord: 0.0ms | Allocations: 6250)
+
+
+Started GET "/articles" for ::1 at 2020-01-13 22:45:02 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:17
+  Rendered articles/index.html.erb within layouts/application (Duration: 143.5ms | Allocations: 4503)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 111)
+Completed 200 OK in 280ms (Views: 89.6ms | ActiveRecord: 107.5ms | Allocations: 12629)
+
+
+Started GET "/articles/2" for ::1 at 2020-01-13 22:45:04 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:12:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  ↳ app/views/articles/show.html.erb:12
+  Rendered collection of comments/_comment.html.erb [2 times] (Duration: 15.7ms | Allocations: 520)
+  Rendered comments/_form.html.erb (Duration: 78.8ms | Allocations: 1328)
+  Rendered articles/show.html.erb within layouts/application (Duration: 268.6ms | Allocations: 15013)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 110)
+Completed 200 OK in 317ms (Views: 308.1ms | ActiveRecord: 3.7ms | Allocations: 21870)
+
+
+Started GET "/" for ::1 at 2020-01-13 22:45:07 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 134)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 111)
+Completed 200 OK in 71ms (Views: 70.1ms | ActiveRecord: 0.0ms | Allocations: 6229)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-01-13 22:45:09 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 25.9ms | Allocations: 259)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 27.9ms | Allocations: 1210)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 87)
+Completed 200 OK in 82ms (Views: 80.5ms | ActiveRecord: 0.0ms | Allocations: 7619)
+
+
+Started GET "/" for ::1 at 2020-01-13 22:47:32 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 125)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 109)
+Completed 200 OK in 45ms (Views: 44.8ms | ActiveRecord: 0.0ms | Allocations: 6213)
+
+
+Started GET "/articles/new" for ::1 at 2020-01-13 22:47:37 +0700
+Processing by ArticlesController#new as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 321)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-01-13 22:47:37 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 258)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1200)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 82)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.0ms | Allocations: 7646)
+
+
+Started GET "/" for ::1 at 2020-01-13 22:47:46 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 125)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 109)
+Completed 200 OK in 45ms (Views: 44.3ms | ActiveRecord: 0.0ms | Allocations: 6220)
+
+
+Started GET "/articles" for ::1 at 2020-01-13 22:47:52 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:17
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 818)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 109)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.3ms | Allocations: 6940)
+
+
+Started GET "/articles/2" for ::1 at 2020-01-13 22:47:59 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:12:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  ↳ app/views/articles/show.html.erb:12
+  Rendered collection of comments/_comment.html.erb [2 times] (Duration: 0.8ms | Allocations: 246)
+  Rendered comments/_form.html.erb (Duration: 1.9ms | Allocations: 842)
+  Rendered articles/show.html.erb within layouts/application (Duration: 7.7ms | Allocations: 2170)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 108)
+Completed 200 OK in 54ms (Views: 51.2ms | ActiveRecord: 0.6ms | Allocations: 8864)
+
+
+Started GET "/" for ::1 at 2020-01-13 22:48:04 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 125)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 109)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms | Allocations: 6223)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-01-13 22:48:09 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 258)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1200)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 82)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.0ms | Allocations: 7613)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-01-13 22:48:43 +0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 204)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1219)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 87)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.0ms | Allocations: 7601)
+
+
+Started GET "/" for ::1 at 2020-01-13 23:39:12 +0700
+  [1m[35m (0.9ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 125)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.5ms | Allocations: 109)
+Completed 200 OK in 78ms (Views: 76.0ms | ActiveRecord: 0.0ms | Allocations: 6254)
+
+
+Started GET "/articles" for ::1 at 2020-01-13 23:39:14 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (18.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:17
+  Rendered articles/index.html.erb within layouts/application (Duration: 37.1ms | Allocations: 808)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 109)
+Completed 200 OK in 100ms (Views: 80.7ms | ActiveRecord: 18.2ms | Allocations: 6918)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-13 23:39:18 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 313)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-01-13 23:39:19 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 258)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1200)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 82)
+Completed 200 OK in 85ms (Views: 83.8ms | ActiveRecord: 0.0ms | Allocations: 7661)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-01-13 23:39:20 +0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"YSvtdHXxFle+lf0kBM2oOVAy+OWb6EED/Z+uvkO1xX2g05k6YNDzMUtmeBJCGo9bsG2c+wWWLjU//p+2u318fA==", "user"=>{"email"=>"5tr@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (53.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = '5tr@mail.ru' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (25.1ms)[0m  [1m[33mUPDATE `users` SET `users`.`current_sign_in_at` = '2020-01-13 16:39:21', `users`.`last_sign_in_at` = '2020-01-13 11:54:58', `users`.`sign_in_count` = 7, `users`.`updated_at` = '2020-01-13 16:39:21.406239' WHERE `users`.`id` = 2[0m
+  [1m[35m (44.9ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/2/edit
+Completed 302 Found in 549ms (ActiveRecord: 123.4ms | Allocations: 7831)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-13 23:39:21 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 49.0ms | Allocations: 1174)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 52.5ms | Allocations: 1519)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 80)
+Completed 200 OK in 188ms (Views: 152.9ms | ActiveRecord: 0.9ms | Allocations: 9880)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-13 23:40:31 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.4ms | Allocations: 1069)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1438)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.9ms | Allocations: 250)
+Completed 200 OK in 70ms (Views: 63.1ms | ActiveRecord: 0.7ms | Allocations: 11068)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:42:17 +0700
+  [1m[35m (0.9ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 401 Unauthorized in 154ms (ActiveRecord: 0.7ms | Allocations: 18310)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:42:20 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+Completed 401 Unauthorized in 6ms (ActiveRecord: 0.0ms | Allocations: 329)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-01-14 00:42:20 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 6.2ms | Allocations: 665)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 18.8ms | Allocations: 2060)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/OpenServer/domains/ruby.first/public/packs
+[Webpacker] Hash: 96c7ba1e63201215b77c
+Version: webpack 4.41.4
+Time: 13301ms
+Built at: 2020-01-14 0:42:44
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-0f6f88c554750b4fe5d1.js    827 KiB  application  [emitted] [immutable]  application
+js/application-0f6f88c554750b4fe5d1.js.map    882 KiB  application  [emitted] [dev]        application
+        js/article-c06be9f23f6250693445.js   3.88 KiB      article  [emitted] [immutable]  article
+    js/article-c06be9f23f6250693445.js.map   3.59 KiB      article  [emitted] [dev]        article
+                             manifest.json  675 bytes               [emitted]              
+Entrypoint application = js/application-0f6f88c554750b4fe5d1.js js/application-0f6f88c554750b4fe5d1.js.map
+Entrypoint article = js/article-c06be9f23f6250693445.js js/article-c06be9f23f6250693445.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 785 bytes {application} [built]
+[./app/javascript/packs/article.js] 12 bytes {article} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+  Rendered devise/menu/_top.html.erb (Duration: 1.1ms | Allocations: 261)
+Completed 200 OK in 24606ms (Views: 24604.1ms | ActiveRecord: 0.0ms | Allocations: 13557)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-01-14 00:42:59 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 259)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1208)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 82)
+Completed 200 OK in 81ms (Views: 80.1ms | ActiveRecord: 0.0ms | Allocations: 7650)
+
+
+Started GET "/" for ::1 at 2020-01-14 00:43:02 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 19.6ms | Allocations: 861)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 111)
+Completed 200 OK in 81ms (Views: 78.1ms | ActiveRecord: 0.0ms | Allocations: 7726)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 00:43:04 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:17
+  Rendered articles/index.html.erb within layouts/application (Duration: 29.9ms | Allocations: 3924)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 111)
+Completed 200 OK in 127ms (Views: 92.3ms | ActiveRecord: 0.4ms | Allocations: 11560)
+
+
+Started GET "/articles/2" for ::1 at 2020-01-14 00:43:06 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:12:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  ↳ app/views/articles/show.html.erb:12
+  Rendered collection of comments/_comment.html.erb [2 times] (Duration: 9.6ms | Allocations: 511)
+  Rendered comments/_form.html.erb (Duration: 3.2ms | Allocations: 1053)
+  Rendered articles/show.html.erb within layouts/application (Duration: 118.6ms | Allocations: 10105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 110)
+Completed 200 OK in 170ms (Views: 164.1ms | ActiveRecord: 0.8ms | Allocations: 17005)
+
+
+Started GET "/articles/2" for ::1 at 2020-01-14 00:43:42 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:12:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  ↳ app/views/articles/show.html.erb:12
+  Rendered collection of comments/_comment.html.erb [2 times] (Duration: 0.7ms | Allocations: 247)
+  Rendered comments/_form.html.erb (Duration: 42.2ms | Allocations: 842)
+  Rendered articles/show.html.erb within layouts/application (Duration: 50.8ms | Allocations: 2171)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/OpenServer/domains/ruby.first/public/packs
+[Webpacker] Hash: fa74bfe2de6298618a1a
+Version: webpack 4.41.4
+Time: 2084ms
+Built at: 2020-01-14 0:43:50
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-0f6f88c554750b4fe5d1.js    827 KiB  application  [emitted] [immutable]  application
+js/application-0f6f88c554750b4fe5d1.js.map    882 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-0f6f88c554750b4fe5d1.js js/application-0f6f88c554750b4fe5d1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 785 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 108)
+Completed 200 OK in 8017ms (Views: 8012.9ms | ActiveRecord: 0.6ms | Allocations: 11694)
+
+
+Started GET "/articles/2" for ::1 at 2020-01-14 00:44:31 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:12:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  ↳ app/views/articles/show.html.erb:12
+  Rendered collection of comments/_comment.html.erb [2 times] (Duration: 0.6ms | Allocations: 244)
+  Rendered comments/_form.html.erb (Duration: 16.9ms | Allocations: 842)
+  Rendered articles/show.html.erb within layouts/application (Duration: 126.3ms | Allocations: 2168)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 108)
+Completed 200 OK in 855ms (Views: 635.5ms | ActiveRecord: 0.7ms | Allocations: 8866)
+
+
+Started GET "/articles/2" for ::1 at 2020-01-14 00:44:33 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:12:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  ↳ app/views/articles/show.html.erb:12
+  Rendered collection of comments/_comment.html.erb [2 times] (Duration: 0.5ms | Allocations: 244)
+  Rendered comments/_form.html.erb (Duration: 1.7ms | Allocations: 842)
+  Rendered articles/show.html.erb within layouts/application (Duration: 6.3ms | Allocations: 2168)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 108)
+Completed 200 OK in 53ms (Views: 49.8ms | ActiveRecord: 0.6ms | Allocations: 8868)
+
+
+Started GET "/articles/2" for ::1 at 2020-01-14 00:45:59 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:12:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  ↳ app/views/articles/show.html.erb:12
+  Rendered collection of comments/_comment.html.erb [2 times] (Duration: 1.5ms | Allocations: 412)
+  Rendered comments/_form.html.erb (Duration: 2.8ms | Allocations: 1049)
+  Rendered articles/show.html.erb within layouts/application (Duration: 15.6ms | Allocations: 3033)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/OpenServer/domains/ruby.first/public/packs
+[Webpacker] Hash: fa74bfe2de6298618a1a
+Version: webpack 4.41.4
+Time: 2232ms
+Built at: 2020-01-14 0:46:06
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-0f6f88c554750b4fe5d1.js    827 KiB  application  [emitted] [immutable]  application
+js/application-0f6f88c554750b4fe5d1.js.map    882 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-0f6f88c554750b4fe5d1.js js/application-0f6f88c554750b4fe5d1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 785 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+  Rendered devise/menu/_top.html.erb (Duration: 1.2ms | Allocations: 280)
+Completed 200 OK in 6680ms (Views: 6672.2ms | ActiveRecord: 0.8ms | Allocations: 14136)
+
+
+Started GET "/" for ::1 at 2020-01-14 00:46:22 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 111)
+Completed 200 OK in 84ms (Views: 81.7ms | ActiveRecord: 0.0ms | Allocations: 7042)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 00:46:23 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:17
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1053)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.5ms | Allocations: 111)
+Completed 200 OK in 52ms (Views: 48.6ms | ActiveRecord: 0.3ms | Allocations: 7312)
+
+
+Started GET "/articles/2" for ::1 at 2020-01-14 00:46:25 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:12:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  ↳ app/views/articles/show.html.erb:12
+  Rendered collection of comments/_comment.html.erb [2 times] (Duration: 0.5ms | Allocations: 249)
+  Rendered comments/_form.html.erb (Duration: 2.4ms | Allocations: 843)
+  Rendered articles/show.html.erb within layouts/application (Duration: 6.2ms | Allocations: 2175)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 108)
+Completed 200 OK in 67ms (Views: 64.3ms | ActiveRecord: 0.6ms | Allocations: 8898)
+
+
+Started GET "/articles/2" for ::1 at 2020-01-14 00:46:27 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:12:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.2ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  ↳ app/views/articles/show.html.erb:12
+  Rendered collection of comments/_comment.html.erb [2 times] (Duration: 0.5ms | Allocations: 244)
+  Rendered comments/_form.html.erb (Duration: 1.7ms | Allocations: 842)
+  Rendered articles/show.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2168)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 108)
+Completed 200 OK in 54ms (Views: 50.7ms | ActiveRecord: 0.6ms | Allocations: 8882)
+
+
+Started GET "/" for ::1 at 2020-01-14 00:46:32 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 134)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 111)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.0ms | Allocations: 6250)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 00:46:33 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:17
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 809)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 109)
+Completed 200 OK in 78ms (Views: 76.7ms | ActiveRecord: 0.4ms | Allocations: 6950)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:46:35 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 312)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-01-14 00:46:35 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.5ms | Allocations: 648)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 2034)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 87)
+Completed 200 OK in 74ms (Views: 72.6ms | ActiveRecord: 0.0ms | Allocations: 9566)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-01-14 00:46:38 +0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"rD5Coe6w5S3p9+Ffz7uQnCThuurlfiB+M6d5qUYXiNx2YK53Pn9UTFyFKQhGZYSXV7sKjp8laBt2xCciT0MErg==", "user"=>{"email"=>"5tr@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = '5tr@mail.ru' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (1.5ms)[0m  [1m[33mUPDATE `users` SET `users`.`current_sign_in_at` = '2020-01-13 17:46:38', `users`.`last_sign_in_at` = '2020-01-13 16:39:21', `users`.`sign_in_count` = 8, `users`.`updated_at` = '2020-01-13 17:46:38.562033' WHERE `users`.`id` = 2[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/2/edit
+Completed 302 Found in 202ms (ActiveRecord: 3.9ms | Allocations: 8971)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:46:38 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 3.0ms | Allocations: 1088)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1465)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 82)
+Completed 200 OK in 72ms (Views: 55.2ms | ActiveRecord: 0.8ms | Allocations: 9840)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:46:41 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.4ms | Allocations: 744)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.6ms | Allocations: 835)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 54ms (Views: 48.5ms | ActiveRecord: 0.6ms | Allocations: 9060)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:47:00 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 3.1ms | Allocations: 1069)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1442)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 1.5ms | Allocations: 250)
+Completed 200 OK in 77ms (Views: 67.7ms | ActiveRecord: 0.7ms | Allocations: 11061)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:50:34 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.5ms | Allocations: 1069)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 6.2ms | Allocations: 1443)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.9ms | Allocations: 250)
+Completed 200 OK in 74ms (Views: 65.1ms | ActiveRecord: 0.8ms | Allocations: 11053)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:50:42 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.5ms | Allocations: 749)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.6ms | Allocations: 841)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 63ms (Views: 49.8ms | ActiveRecord: 0.6ms | Allocations: 9065)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:50:50 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.3ms | Allocations: 744)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.8ms | Allocations: 835)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 51ms (Views: 46.4ms | ActiveRecord: 0.6ms | Allocations: 9071)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:50:54 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.4ms | Allocations: 744)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.2ms | Allocations: 835)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 57ms (Views: 50.1ms | ActiveRecord: 0.7ms | Allocations: 9055)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:51:08 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.4ms | Allocations: 744)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.9ms | Allocations: 835)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 54ms (Views: 48.3ms | ActiveRecord: 0.7ms | Allocations: 9069)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:51:21 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.4ms | Allocations: 744)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.9ms | Allocations: 835)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 57ms (Views: 50.8ms | ActiveRecord: 0.5ms | Allocations: 9044)
+
+
+Started GET "/" for ::1 at 2020-01-14 00:51:24 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 247)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 4.3ms | Allocations: 1060)
+Completed 200 OK in 60ms (Views: 57.1ms | ActiveRecord: 0.6ms | Allocations: 8030)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 00:51:26 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:17
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1053)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 4.3ms | Allocations: 1060)
+Completed 200 OK in 56ms (Views: 52.2ms | ActiveRecord: 0.9ms | Allocations: 8290)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:51:28 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.7ms | Allocations: 746)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.3ms | Allocations: 838)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 64ms (Views: 50.3ms | ActiveRecord: 0.7ms | Allocations: 9054)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:53:39 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.4ms | Allocations: 744)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.0ms | Allocations: 835)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 56ms (Views: 50.1ms | ActiveRecord: 0.6ms | Allocations: 9053)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:55:15 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.7ms | Allocations: 744)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.2ms | Allocations: 835)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 55ms (Views: 47.7ms | ActiveRecord: 0.6ms | Allocations: 9051)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:55:18 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.3ms | Allocations: 744)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.8ms | Allocations: 835)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 50ms (Views: 44.7ms | ActiveRecord: 0.6ms | Allocations: 9071)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:55:54 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.5ms | Allocations: 1069)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1453)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.9ms | Allocations: 250)
+Completed 200 OK in 79ms (Views: 64.1ms | ActiveRecord: 0.8ms | Allocations: 11074)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:55:56 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.4ms | Allocations: 749)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.8ms | Allocations: 841)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 51ms (Views: 46.4ms | ActiveRecord: 0.6ms | Allocations: 9075)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:57:27 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.2ms | Allocations: 744)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 3.0ms | Allocations: 835)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/OpenServer/domains/ruby.first/public/packs
+[Webpacker] Hash: f64a0c1e5f7e5f5d79cf
+Version: webpack 4.41.4
+Time: 2147ms
+Built at: 2020-01-14 0:57:34
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-27a33faa6198c2bed665.js    827 KiB  application  [emitted] [immutable]  application
+js/application-27a33faa6198c2bed665.js.map    882 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-27a33faa6198c2bed665.js js/application-27a33faa6198c2bed665.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 769 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 6528ms (Views: 6501.3ms | ActiveRecord: 0.7ms | Allocations: 11864)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:57:39 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.4ms | Allocations: 744)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.0ms | Allocations: 835)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 61ms (Views: 55.8ms | ActiveRecord: 0.7ms | Allocations: 9057)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:57:42 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.4ms | Allocations: 744)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.9ms | Allocations: 835)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 53ms (Views: 48.5ms | ActiveRecord: 0.6ms | Allocations: 9036)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:59:18 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 199)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-01-14 00:59:18 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 43.8ms | Allocations: 648)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 49.2ms | Allocations: 2037)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 87)
+Completed 200 OK in 117ms (Views: 116.1ms | ActiveRecord: 0.0ms | Allocations: 9559)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-01-14 00:59:21 +0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"qtLWt+RdN2KaNcex7xZ754FRr8dRJe7SsHlsXvpR2x0FanW6no67prnzuzKC6IW2wkBPrhThABCWEmzGFRlM7Q==", "user"=>{"email"=>"5tr@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = '5tr@mail.ru' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (24.5ms)[0m  [1m[33mUPDATE `users` SET `users`.`current_sign_in_at` = '2020-01-13 17:59:21', `users`.`last_sign_in_at` = '2020-01-13 17:46:38', `users`.`sign_in_count` = 9, `users`.`updated_at` = '2020-01-13 17:59:21.918873' WHERE `users`.`id` = 2[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/2/edit
+Completed 302 Found in 199ms (ActiveRecord: 26.1ms | Allocations: 8927)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:59:22 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.6ms | Allocations: 758)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.1ms | Allocations: 851)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 80)
+Completed 200 OK in 147ms (Views: 141.5ms | ActiveRecord: 1.1ms | Allocations: 9090)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:59:25 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.3ms | Allocations: 744)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.7ms | Allocations: 835)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 53ms (Views: 47.3ms | ActiveRecord: 0.7ms | Allocations: 9057)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:59:42 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.3ms | Allocations: 1069)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 6.8ms | Allocations: 1453)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.9ms | Allocations: 250)
+Completed 200 OK in 73ms (Views: 65.8ms | ActiveRecord: 0.6ms | Allocations: 11085)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 00:59:45 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.3ms | Allocations: 749)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 48.4ms | Allocations: 841)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 100ms (Views: 95.3ms | ActiveRecord: 0.5ms | Allocations: 9059)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:00:57 +0700
+  [1m[35m (25.8ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (6.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 105.0ms | Allocations: 7281)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 112.9ms | Allocations: 7901)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.9ms | Allocations: 265)
+Completed 200 OK in 982ms (Views: 785.9ms | ActiveRecord: 75.8ms | Allocations: 46295)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:01:20 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms | Allocations: 214)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-01-14 01:01:20 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.9ms | Allocations: 816)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 27.8ms | Allocations: 2934)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 87)
+Completed 200 OK in 138ms (Views: 133.0ms | ActiveRecord: 0.0ms | Allocations: 10923)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-01-14 01:01:23 +0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"CKcI2jU+h52olvx+Px9i4dDPZCWrzjkXpG5HBpAwAioNP8Lepx8sI3MVRSDRSaKHfnSt2CYZqk8aBtWbhAAsWg==", "user"=>{"email"=>"5tr@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = '5tr@mail.ru' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (53.6ms)[0m  [1m[33mUPDATE `users` SET `users`.`current_sign_in_at` = '2020-01-13 18:01:24', `users`.`last_sign_in_at` = '2020-01-13 17:59:21', `users`.`sign_in_count` = 10, `users`.`updated_at` = '2020-01-13 18:01:24.266877' WHERE `users`.`id` = 2[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/2/edit
+Completed 302 Found in 326ms (ActiveRecord: 55.0ms | Allocations: 11043)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:01:24 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.6ms | Allocations: 758)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 3.2ms | Allocations: 852)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.4ms | Allocations: 80)
+Completed 200 OK in 62ms (Views: 56.3ms | ActiveRecord: 0.9ms | Allocations: 9092)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:02:23 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 4.6ms | Allocations: 1069)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 8.0ms | Allocations: 1451)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.9ms | Allocations: 250)
+Completed 200 OK in 88ms (Views: 77.9ms | ActiveRecord: 1.3ms | Allocations: 11093)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:02:41 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.4ms | Allocations: 749)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.7ms | Allocations: 841)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 52ms (Views: 46.7ms | ActiveRecord: 0.6ms | Allocations: 9104)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:02:57 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.4ms | Allocations: 744)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.8ms | Allocations: 836)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 52ms (Views: 47.4ms | ActiveRecord: 0.6ms | Allocations: 9076)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:03:27 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.3ms | Allocations: 744)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.8ms | Allocations: 835)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 51ms (Views: 46.6ms | ActiveRecord: 0.6ms | Allocations: 9062)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 01:04:15 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:17
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1074)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 4.8ms | Allocations: 1063)
+Completed 200 OK in 56ms (Views: 53.0ms | ActiveRecord: 0.8ms | Allocations: 8319)
+
+
+Started GET "/" for ::1 at 2020-01-14 01:04:21 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 866)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.7ms | Allocations: 1060)
+Completed 200 OK in 63ms (Views: 58.9ms | ActiveRecord: 0.7ms | Allocations: 8713)
+
+
+Started GET "/" for ::1 at 2020-01-14 01:05:33 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 127)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 10.7ms | Allocations: 1070)
+Completed 200 OK in 56ms (Views: 54.6ms | ActiveRecord: 0.7ms | Allocations: 7232)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 01:05:36 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:17
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 816)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.3ms | Allocations: 1060)
+Completed 200 OK in 50ms (Views: 48.1ms | ActiveRecord: 1.0ms | Allocations: 7917)
+
+
+Started GET "/articles/2" for ::1 at 2020-01-14 01:05:41 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:12:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  ↳ app/views/articles/show.html.erb:12
+  Rendered collection of comments/_comment.html.erb [2 times] (Duration: 1.4ms | Allocations: 472)
+  Rendered comments/_form.html.erb (Duration: 3.2ms | Allocations: 1153)
+  Rendered articles/show.html.erb within layouts/application (Duration: 173.3ms | Allocations: 14862)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.5ms | Allocations: 1059)
+Completed 200 OK in 226ms (Views: 166.6ms | ActiveRecord: 54.3ms | Allocations: 22608)
+
+
+Started GET "/articles/2" for ::1 at 2020-01-14 01:05:58 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:12:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.4ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  ↳ app/views/articles/show.html.erb:12
+  Rendered collection of comments/_comment.html.erb [2 times] (Duration: 1.3ms | Allocations: 412)
+  Rendered comments/_form.html.erb (Duration: 2.5ms | Allocations: 1049)
+  Rendered articles/show.html.erb within layouts/application (Duration: 12.1ms | Allocations: 3026)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.5ms | Allocations: 1229)
+Completed 200 OK in 78ms (Views: 72.6ms | ActiveRecord: 1.1ms | Allocations: 12132)
+
+
+Started GET "/" for ::1 at 2020-01-14 01:06:01 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 247)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.4ms | Allocations: 1060)
+Completed 200 OK in 60ms (Views: 56.9ms | ActiveRecord: 0.6ms | Allocations: 8004)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 01:06:02 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:17
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1053)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.3ms | Allocations: 1060)
+Completed 200 OK in 53ms (Views: 48.8ms | ActiveRecord: 1.0ms | Allocations: 8277)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 01:08:15 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:17
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1053)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.8ms | Allocations: 1230)
+Completed 200 OK in 70ms (Views: 65.5ms | ActiveRecord: 0.8ms | Allocations: 9565)
+
+
+Started GET "/articles/2" for ::1 at 2020-01-14 01:08:18 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:12:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  ↳ app/views/articles/show.html.erb:12
+  Rendered collection of comments/_comment.html.erb [2 times] (Duration: 1.4ms | Allocations: 412)
+  Rendered comments/_form.html.erb (Duration: 2.7ms | Allocations: 1049)
+  Rendered articles/show.html.erb within layouts/application (Duration: 12.5ms | Allocations: 3033)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.5ms | Allocations: 1059)
+Completed 200 OK in 64ms (Views: 58.8ms | ActiveRecord: 1.3ms | Allocations: 10871)
+
+
+Started GET "/articles/2" for ::1 at 2020-01-14 01:08:20 +0700
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:12:in `show'
+  Rendering articles/show.html.erb within layouts/application
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT `comments`.* FROM `comments` WHERE `comments`.`article_id` = 2[0m
+  ↳ app/views/articles/show.html.erb:12
+  Rendered collection of comments/_comment.html.erb [2 times] (Duration: 0.5ms | Allocations: 247)
+  Rendered comments/_form.html.erb (Duration: 2.3ms | Allocations: 842)
+  Rendered articles/show.html.erb within layouts/application (Duration: 6.3ms | Allocations: 2171)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.5ms | Allocations: 1055)
+Completed 200 OK in 56ms (Views: 52.6ms | ActiveRecord: 1.3ms | Allocations: 9861)
+
+
+Started GET "/" for ::1 at 2020-01-14 01:08:28 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 243)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.4ms | Allocations: 1060)
+Completed 200 OK in 60ms (Views: 56.8ms | ActiveRecord: 0.6ms | Allocations: 8036)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 01:08:30 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:17
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 816)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 5.2ms | Allocations: 1062)
+Completed 200 OK in 61ms (Views: 59.4ms | ActiveRecord: 0.9ms | Allocations: 7958)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:08:31 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.2ms | Allocations: 1070)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1455)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 80)
+Completed 200 OK in 79ms (Views: 50.3ms | ActiveRecord: 0.6ms | Allocations: 9862)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:08:34 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.4ms | Allocations: 744)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.5ms | Allocations: 835)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 52ms (Views: 46.7ms | ActiveRecord: 0.7ms | Allocations: 9047)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:08:55 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.4ms | Allocations: 1069)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1458)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.9ms | Allocations: 255)
+Completed 200 OK in 81ms (Views: 73.8ms | ActiveRecord: 0.6ms | Allocations: 11094)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:09:01 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.5ms | Allocations: 749)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.9ms | Allocations: 841)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 53ms (Views: 48.3ms | ActiveRecord: 0.6ms | Allocations: 9082)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:09:24 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.5ms | Allocations: 1069)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1459)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 1.0ms | Allocations: 250)
+Completed 200 OK in 76ms (Views: 68.6ms | ActiveRecord: 0.7ms | Allocations: 11098)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:13:57 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.6ms | Allocations: 1069)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 6.2ms | Allocations: 1456)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.9ms | Allocations: 250)
+Completed 200 OK in 95ms (Views: 86.5ms | ActiveRecord: 0.6ms | Allocations: 11087)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:14:15 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.0ms | Allocations: 749)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 3.3ms | Allocations: 841)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 53ms (Views: 47.6ms | ActiveRecord: 0.6ms | Allocations: 9053)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:14:48 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.5ms | Allocations: 1069)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 6.7ms | Allocations: 1456)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 1.0ms | Allocations: 250)
+Completed 200 OK in 78ms (Views: 69.6ms | ActiveRecord: 0.7ms | Allocations: 11101)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:17:22 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.6ms | Allocations: 1069)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1458)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.9ms | Allocations: 250)
+Completed 200 OK in 74ms (Views: 66.9ms | ActiveRecord: 0.6ms | Allocations: 11094)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:18:46 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.4ms | Allocations: 1069)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1464)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.9ms | Allocations: 250)
+Completed 200 OK in 74ms (Views: 66.1ms | ActiveRecord: 0.7ms | Allocations: 11109)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:18:46 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (2.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.6ms | Allocations: 749)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.2ms | Allocations: 841)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 64ms (Views: 54.1ms | ActiveRecord: 2.6ms | Allocations: 9288)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:19:13 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 3.8ms | Allocations: 1069)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 8.4ms | Allocations: 1456)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.9ms | Allocations: 250)
+Completed 200 OK in 86ms (Views: 77.0ms | ActiveRecord: 0.8ms | Allocations: 11104)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:20:42 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.8ms | Allocations: 1069)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 6.2ms | Allocations: 1429)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/OpenServer/domains/ruby.first/public/packs
+[Webpacker] Hash: f64a0c1e5f7e5f5d79cf
+Version: webpack 4.41.4
+Time: 5382ms
+Built at: 2020-01-14 1:20:57
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-27a33faa6198c2bed665.js    827 KiB  application  [emitted] [immutable]  application
+js/application-27a33faa6198c2bed665.js.map    882 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-27a33faa6198c2bed665.js js/application-27a33faa6198c2bed665.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 769 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+  Rendered devise/menu/_top.html.erb (Duration: 0.9ms | Allocations: 250)
+Completed 200 OK in 15150ms (Views: 15142.3ms | ActiveRecord: 0.6ms | Allocations: 14076)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:24:07 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.5ms | Allocations: 749)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 3.0ms | Allocations: 841)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: da76a64ff4e42debbe06
+Version: webpack 4.41.4
+Time: 2124ms
+Built at: 2020-01-14 1:24:14
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-dc22bfacc8a620d8a149.js    828 KiB  application  [emitted] [immutable]  application
+js/application-dc22bfacc8a620d8a149.js.map    882 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-dc22bfacc8a620d8a149.js js/application-dc22bfacc8a620d8a149.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 806 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '/app/javascript/article' in 'D:\OpenServer\domains\ruby.first\app\javascript\packs'
+ @ ./app/javascript/packs/application.js 15:0-34
+
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 6448ms (Views: 6442.9ms | ActiveRecord: 0.6ms | Allocations: 11947)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:27:16 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.7ms | Allocations: 744)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 35.7ms | Allocations: 835)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 4a45742e29c7cfda0110
+Version: webpack 4.41.4
+Time: 2210ms
+Built at: 2020-01-14 1:27:23
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-615a98ae89a6f233077d.js    828 KiB  application  [emitted] [immutable]  application
+js/application-615a98ae89a6f233077d.js.map    882 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-615a98ae89a6f233077d.js js/application-615a98ae89a6f233077d.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 809 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '/app/javascript/article.js' in 'D:\OpenServer\domains\ruby.first\app\javascript\packs'
+ @ ./app/javascript/packs/application.js 15:0-37
+
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 6688ms (Views: 6681.3ms | ActiveRecord: 0.6ms | Allocations: 11755)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:27:31 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.5ms | Allocations: 744)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 3.0ms | Allocations: 835)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/OpenServer/domains/ruby.first/public/packs
+[Webpacker] Hash: 3b0d8a0a977c9af5fb2c
+Version: webpack 4.41.4
+Time: 2172ms
+Built at: 2020-01-14 1:27:37
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-49a02b8cd61960b09e1e.js    828 KiB  application  [emitted] [immutable]  application
+js/application-49a02b8cd61960b09e1e.js.map    882 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-49a02b8cd61960b09e1e.js js/application-49a02b8cd61960b09e1e.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 810 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 6862ms (Views: 6856.8ms | ActiveRecord: 0.7ms | Allocations: 12030)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:27:40 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.4ms | Allocations: 1069)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1456)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.9ms | Allocations: 255)
+Completed 200 OK in 78ms (Views: 70.6ms | ActiveRecord: 0.7ms | Allocations: 11077)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:32:50 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.7ms | Allocations: 749)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.4ms | Allocations: 841)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/OpenServer/domains/ruby.first/public/packs
+[Webpacker] Hash: 391157b726eee3cf1275
+Version: webpack 4.41.4
+Time: 2497ms
+Built at: 2020-01-14 1:32:57
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-7cc456a9c8c2798e310e.js    828 KiB  application  [emitted] [immutable]  application
+js/application-7cc456a9c8c2798e310e.js.map    882 KiB  application  [emitted] [dev]        application
+        js/article-24f29ef634b384bda1cd.js   4.16 KiB      article  [emitted] [immutable]  article
+    js/article-24f29ef634b384bda1cd.js.map   3.91 KiB      article  [emitted] [dev]        article
+                             manifest.json  675 bytes               [emitted]              
+Entrypoint application = js/application-7cc456a9c8c2798e310e.js js/application-7cc456a9c8c2798e310e.js.map
+Entrypoint article = js/article-24f29ef634b384bda1cd.js js/article-24f29ef634b384bda1cd.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 796 bytes {application} [built]
+[./app/javascript/packs/article.js] 294 bytes {article} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 6843ms (Views: 6836.9ms | ActiveRecord: 0.6ms | Allocations: 13851)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:33:12 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.5ms | Allocations: 1069)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1436)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/OpenServer/domains/ruby.first/public/packs
+[Webpacker] Hash: 4539f7c8c540289d36d1
+Version: webpack 4.41.4
+Time: 2203ms
+Built at: 2020-01-14 1:33:19
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-aa62473ed86e33abe312.js    828 KiB  application  [emitted] [immutable]  application
+js/application-aa62473ed86e33abe312.js.map    882 KiB  application  [emitted] [dev]        application
+        js/article-3d3f9bca1998e6446608.js    406 KiB      article  [emitted] [immutable]  article
+    js/article-3d3f9bca1998e6446608.js.map    388 KiB      article  [emitted] [dev]        article
+                             manifest.json  675 bytes               [emitted]              
+Entrypoint application = js/application-aa62473ed86e33abe312.js js/application-aa62473ed86e33abe312.js.map
+Entrypoint article = js/article-3d3f9bca1998e6446608.js js/article-3d3f9bca1998e6446608.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 796 bytes {application} [built]
+[./app/javascript/packs/article.js] 290 bytes {article} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+  Rendered devise/menu/_top.html.erb (Duration: 1.4ms | Allocations: 250)
+Completed 200 OK in 6734ms (Views: 6726.2ms | ActiveRecord: 0.9ms | Allocations: 14252)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:35:21 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.5ms | Allocations: 749)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 2.0ms | Allocations: 841)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/OpenServer/domains/ruby.first/public/packs
+[Webpacker] Hash: b88c5bab5f6a9a7f03e3
+Version: webpack 4.41.4
+Time: 2037ms
+Built at: 2020-01-14 1:35:28
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-65696ed06c89d4eb9be2.js    526 KiB  application  [emitted] [immutable]  application
+js/application-65696ed06c89d4eb9be2.js.map    524 KiB  application  [emitted] [dev]        application
+        js/article-3d3f9bca1998e6446608.js    406 KiB      article  [emitted] [immutable]  article
+    js/article-3d3f9bca1998e6446608.js.map    388 KiB      article  [emitted] [dev]        article
+                             manifest.json  675 bytes               [emitted]              
+Entrypoint application = js/application-65696ed06c89d4eb9be2.js js/application-65696ed06c89d4eb9be2.js.map
+Entrypoint article = js/article-3d3f9bca1998e6446608.js js/article-3d3f9bca1998e6446608.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 798 bytes {application} [built]
+[./app/javascript/packs/article.js] 290 bytes {article} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 110 hidden modules
+
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 6547ms (Views: 6542.0ms | ActiveRecord: 0.6ms | Allocations: 12060)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 01:37:00 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 1.4ms | Allocations: 744)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 1.9ms | Allocations: 835)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 76)
+Completed 200 OK in 52ms (Views: 47.2ms | ActiveRecord: 0.5ms | Allocations: 9070)
+
+
