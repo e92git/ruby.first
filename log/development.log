@@ -4648,3 +4648,1248 @@ Processing by ArticlesController#edit as HTML
 Completed 200 OK in 52ms (Views: 47.2ms | ActiveRecord: 0.5ms | Allocations: 9070)
 
 
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 22:55:38 +0700
+  [1m[35m (35.0ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 401 Unauthorized in 733ms (ActiveRecord: 0.8ms | Allocations: 2114)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 22:55:41 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+Completed 401 Unauthorized in 104ms (ActiveRecord: 0.0ms | Allocations: 335)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-01-14 22:55:44 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 58.6ms | Allocations: 648)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 853.5ms | Allocations: 2040)
+[Webpacker] Compiling...
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 22:56:14 +0700
+  [1m[35m (25.5ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 341)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-01-14 22:56:14 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 35.5ms | Allocations: 648)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 56.8ms | Allocations: 2032)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/OpenServer/domains/ruby.first/public/packs
+[Webpacker] Hash: d2c293dff2be3259e007
+Version: webpack 4.41.4
+Time: 9333ms
+Built at: 2020-01-14 22:56:16
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d77549bd6ab88e423584.js    828 KiB  application  [emitted] [immutable]  application
+js/application-d77549bd6ab88e423584.js.map    882 KiB  application  [emitted] [dev]        application
+        js/article-8f4352cdcbd0c1f73727.js    406 KiB      article  [emitted] [immutable]  article
+    js/article-8f4352cdcbd0c1f73727.js.map    388 KiB      article  [emitted] [dev]        article
+                             manifest.json  675 bytes               [emitted]              
+Entrypoint application = js/application-d77549bd6ab88e423584.js js/application-d77549bd6ab88e423584.js.map
+Entrypoint article = js/article-8f4352cdcbd0c1f73727.js js/article-8f4352cdcbd0c1f73727.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 796 bytes {application} [built]
+[./app/javascript/packs/article.js] 479 bytes {article} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+  Rendered devise/menu/_top.html.erb (Duration: 39.8ms | Allocations: 254)
+Completed 200 OK in 35087ms (Views: 34818.6ms | ActiveRecord: 0.0ms | Allocations: 30151)
+
+
+[Webpacker] Compiled all packs in D:/OpenServer/domains/ruby.first/public/packs
+[Webpacker] Hash: d2c293dff2be3259e007
+Version: webpack 4.41.4
+Time: 2540ms
+Built at: 2020-01-14 22:56:22
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d77549bd6ab88e423584.js    828 KiB  application  [emitted] [immutable]  application
+js/application-d77549bd6ab88e423584.js.map    882 KiB  application  [emitted] [dev]        application
+        js/article-8f4352cdcbd0c1f73727.js    406 KiB      article  [emitted] [immutable]  article
+    js/article-8f4352cdcbd0c1f73727.js.map    388 KiB      article  [emitted] [dev]        article
+                             manifest.json  675 bytes               [emitted]              
+Entrypoint application = js/application-d77549bd6ab88e423584.js js/application-d77549bd6ab88e423584.js.map
+Entrypoint article = js/article-8f4352cdcbd0c1f73727.js js/article-8f4352cdcbd0c1f73727.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 796 bytes {application} [built]
+[./app/javascript/packs/article.js] 479 bytes {article} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+  Rendered devise/menu/_top.html.erb (Duration: 12913.0ms | Allocations: 197100)
+Completed 500 Internal Server Error in 20559ms (ActiveRecord: 0.0ms | Allocations: 213606)
+
+
+
+NoMethodError - undefined method `_app_views_devise_menu__top_html_erb__259792504_83242960' for #<#<Class:0x0000000009b4bac8>:0x0000000009b48288>
+Did you mean?  _app_views_devise_sessions_new_html_erb__375629303_81454980:
+  app/views/layouts/application.html.erb:18
+
+Started POST "/__better_errors/9238a6114a65713a/variables" for ::1 at 2020-01-14 22:56:36 +0700
+Started GET "/users/sign_in" for ::1 at 2020-01-14 22:57:57 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 648)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 2037)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 500 Internal Server Error in 82ms (ActiveRecord: 0.0ms | Allocations: 12252)
+
+
+
+ActionView::MissingTemplate - Missing partial devise/menu/__top with {:locale=>[:ru], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "D:/OpenServer/domains/ruby.first/app/views"
+  * "C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/devise-4.7.1/app/views"
+  * "C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actiontext-6.0.2.1/app/views"
+  * "C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/actionmailbox-6.0.2.1/app/views"
+:
+  app/views/layouts/application.html.erb:18
+
+Started POST "/__better_errors/4a314038ddfa711d/variables" for ::1 at 2020-01-14 22:57:57 +0700
+Started GET "/users/sign_in" for ::1 at 2020-01-14 22:58:14 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 2.4ms | Allocations: 648)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 27.0ms | Allocations: 2036)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 15.5ms | Allocations: 254)
+Completed 200 OK in 125ms (Views: 123.2ms | ActiveRecord: 0.0ms | Allocations: 10296)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-01-14 22:58:16 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 259)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 19.5ms | Allocations: 1208)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 82)
+Completed 200 OK in 69ms (Views: 68.1ms | ActiveRecord: 0.0ms | Allocations: 7655)
+
+
+Started GET "/" for ::1 at 2020-01-14 22:58:20 +0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 247)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 111)
+Completed 200 OK in 57ms (Views: 54.1ms | ActiveRecord: 0.0ms | Allocations: 7052)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 22:58:43 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (14.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:17
+  Rendered articles/index.html.erb within layouts/application (Duration: 18.8ms | Allocations: 1053)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 1.0ms | Allocations: 281)
+Completed 200 OK in 80ms (Views: 63.4ms | ActiveRecord: 14.4ms | Allocations: 8602)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 22:59:20 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:19
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1056)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 1.0ms | Allocations: 281)
+Completed 200 OK in 69ms (Views: 65.5ms | ActiveRecord: 0.4ms | Allocations: 8787)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 23:03:00 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:19
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1056)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/OpenServer/domains/ruby.first/public/packs
+[Webpacker] Hash: 67d6b4efe4fe98de9a29
+Version: webpack 4.41.4
+Time: 4771ms
+Built at: 2020-01-14 23:03:12
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-26eecaa0dfacc88bdebe.js    829 KiB  application  [emitted] [immutable]  application
+js/application-26eecaa0dfacc88bdebe.js.map    883 KiB  application  [emitted] [dev]        application
+        js/article-18a52410bbd8534ab2cf.js    406 KiB      article  [emitted] [immutable]  article
+    js/article-18a52410bbd8534ab2cf.js.map    389 KiB      article  [emitted] [dev]        article
+                             manifest.json  675 bytes               [emitted]              
+Entrypoint application = js/application-26eecaa0dfacc88bdebe.js js/application-26eecaa0dfacc88bdebe.js.map
+Entrypoint article = js/article-18a52410bbd8534ab2cf.js js/article-18a52410bbd8534ab2cf.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 796 bytes {application} [built]
+[./app/javascript/packs/article.js] 632 bytes {article} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+  Rendered devise/menu/_top.html.erb (Duration: 1.2ms | Allocations: 286)
+Completed 200 OK in 12618ms (Views: 12614.5ms | ActiveRecord: 0.4ms | Allocations: 11615)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 23:04:13 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:19
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 812)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 109)
+Completed 200 OK in 72ms (Views: 70.3ms | ActiveRecord: 0.7ms | Allocations: 6952)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 23:05:10 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 324)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-01-14 23:05:11 +0700
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 2.0ms | Allocations: 648)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 8.2ms | Allocations: 2030)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.3ms | Allocations: 87)
+Completed 200 OK in 90ms (Views: 89.0ms | ActiveRecord: 0.0ms | Allocations: 9565)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-01-14 23:05:13 +0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"MImWnw2TUIMX7EROjbFVRzOGqB9VpupFw5xVIdHRxpKBfG8DXRJWNNOxHLZwXI08+2cVgmGIuA+hZZU2Ath8FA==", "user"=>{"email"=>"5tr@mail.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (82.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = '5tr@mail.ru' ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (93.9ms)[0m  [1m[33mUPDATE `users` SET `users`.`current_sign_in_at` = '2020-01-14 16:05:13', `users`.`last_sign_in_at` = '2020-01-13 18:01:24', `users`.`sign_in_count` = 11, `users`.`updated_at` = '2020-01-14 16:05:13.404415' WHERE `users`.`id` = 2[0m
+  [1m[35m (24.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/2/edit
+Completed 302 Found in 421ms (ActiveRecord: 201.2ms | Allocations: 8928)
+
+
+Started GET "/articles/2/edit" for ::1 at 2020-01-14 23:05:13 +0700
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (12.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` WHERE `articles`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/articles_controller.rb:21:in `edit'
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.3ms | Allocations: 1075)
+  Rendered articles/edit.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1440)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered devise/menu/_top.html.erb (Duration: 0.2ms | Allocations: 80)
+Completed 200 OK in 72ms (Views: 50.8ms | ActiveRecord: 12.7ms | Allocations: 9831)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 23:05:39 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:19
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 811)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.5ms | Allocations: 1056)
+Completed 200 OK in 80ms (Views: 77.9ms | ActiveRecord: 1.3ms | Allocations: 7954)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 23:06:28 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:19
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 809)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/OpenServer/domains/ruby.first/public/packs
+[Webpacker] Hash: 6c993c0ff75177d48f9f
+Version: webpack 4.41.4
+Time: 4753ms
+Built at: 2020-01-14 23:06:38
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-1108120801788a424230.js    829 KiB  application  [emitted] [immutable]  application
+js/application-1108120801788a424230.js.map    883 KiB  application  [emitted] [dev]        application
+        js/article-161e3d02b97672efcba5.js    406 KiB      article  [emitted] [immutable]  article
+    js/article-161e3d02b97672efcba5.js.map    389 KiB      article  [emitted] [dev]        article
+                             manifest.json  675 bytes               [emitted]              
+Entrypoint application = js/application-1108120801788a424230.js js/application-1108120801788a424230.js.map
+Entrypoint article = js/article-161e3d02b97672efcba5.js js/article-161e3d02b97672efcba5.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 796 bytes {application} [built]
+[./app/javascript/packs/article.js] 645 bytes {article} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.0ms | Allocations: 1058)
+Completed 200 OK in 9236ms (Views: 9234.4ms | ActiveRecord: 0.8ms | Allocations: 10923)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 23:08:51 +0700
+Started GET "/articles" for ::1 at 2020-01-14 23:08:51 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (2.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:19
+  Rendered articles/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 822)
+Started GET "/" for ::1 at 2020-01-14 23:08:51 +0700
+[Webpacker] Compiling...
+  [1m[35m (25.9ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:19
+  Rendered articles/index.html.erb within layouts/application (Duration: 6.4ms | Allocations: 813)
+[Webpacker] Compiling...
+  [1m[35m (55.1ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 247)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/OpenServer/domains/ruby.first/public/packs
+[Webpacker] Hash: 1b363ca50a171065b630
+Version: webpack 4.41.4
+Time: 3005ms
+Built at: 2020-01-14 23:08:59
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-0202c1c46cc5d0b925dc.js    829 KiB  application  [emitted] [immutable]  application
+js/application-0202c1c46cc5d0b925dc.js.map    883 KiB  application  [emitted] [dev]        application
+        js/article-f489fd1977213f0e6b8d.js    406 KiB      article  [emitted] [immutable]  article
+    js/article-f489fd1977213f0e6b8d.js.map    389 KiB      article  [emitted] [dev]        article
+                             manifest.json  675 bytes               [emitted]              
+Entrypoint application = js/application-0202c1c46cc5d0b925dc.js js/application-0202c1c46cc5d0b925dc.js.map
+Entrypoint article = js/article-f489fd1977213f0e6b8d.js js/article-f489fd1977213f0e6b8d.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 796 bytes {application} [built]
+[./app/javascript/packs/article.js] 646 bytes {article} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+[Webpacker] Compiled all packs in D:/OpenServer/domains/ruby.first/public/packs
+[Webpacker] Hash: 1b363ca50a171065b630
+Version: webpack 4.41.4
+Time: 3011ms
+Built at: 2020-01-14 23:08:59
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-0202c1c46cc5d0b925dc.js    829 KiB  application  [emitted] [immutable]  application
+js/application-0202c1c46cc5d0b925dc.js.map    883 KiB  application  [emitted] [dev]        application
+        js/article-f489fd1977213f0e6b8d.js    406 KiB      article  [emitted] [immutable]  article
+    js/article-f489fd1977213f0e6b8d.js.map    389 KiB      article  [emitted] [dev]        article
+                             manifest.json  675 bytes               [emitted]              
+Entrypoint application = js/application-0202c1c46cc5d0b925dc.js js/application-0202c1c46cc5d0b925dc.js.map
+Entrypoint article = js/article-f489fd1977213f0e6b8d.js js/article-f489fd1977213f0e6b8d.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 796 bytes {application} [built]
+[./app/javascript/packs/article.js] 646 bytes {article} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+[Webpacker] Compiled all packs in D:/OpenServer/domains/ruby.first/public/packs
+[Webpacker] Hash: 1b363ca50a171065b630
+Version: webpack 4.41.4
+Time: 2844ms
+Built at: 2020-01-14 23:08:59
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-0202c1c46cc5d0b925dc.js    829 KiB  application  [emitted] [immutable]  application
+js/application-0202c1c46cc5d0b925dc.js.map    883 KiB  application  [emitted] [dev]        application
+        js/article-f489fd1977213f0e6b8d.js    406 KiB      article  [emitted] [immutable]  article
+    js/article-f489fd1977213f0e6b8d.js.map    389 KiB      article  [emitted] [dev]        article
+                             manifest.json  675 bytes               [emitted]              
+Entrypoint application = js/application-0202c1c46cc5d0b925dc.js js/application-0202c1c46cc5d0b925dc.js.map
+Entrypoint article = js/article-f489fd1977213f0e6b8d.js js/article-f489fd1977213f0e6b8d.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 796 bytes {application} [built]
+[./app/javascript/packs/article.js] 646 bytes {article} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 4.9ms | Allocations: 1584)
+Completed 200 OK in 8156ms (Views: 8152.4ms | ActiveRecord: 2.9ms | Allocations: 34267)
+
+
+  Rendered devise/menu/_top.html.erb (Duration: 6.1ms | Allocations: 1956)
+Completed 200 OK in 7935ms (Views: 7931.7ms | ActiveRecord: 2.4ms | Allocations: 25760)
+
+
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.7ms | Allocations: 1121)
+Completed 200 OK in 7671ms (Views: 7667.7ms | ActiveRecord: 0.4ms | Allocations: 18690)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 23:09:47 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:19
+  Rendered articles/index.html.erb within layouts/application (Duration: 32.7ms | Allocations: 1084)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.9ms | Allocations: 1230)
+Completed 200 OK in 100ms (Views: 95.9ms | ActiveRecord: 0.7ms | Allocations: 9601)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 23:10:23 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:19
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 812)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.4ms | Allocations: 1058)
+Completed 200 OK in 58ms (Views: 56.6ms | ActiveRecord: 1.2ms | Allocations: 7921)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 23:10:50 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:19
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1084)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/OpenServer/domains/ruby.first/public/packs
+[Webpacker] Hash: e74d766275207fd2df12
+Version: webpack 4.41.4
+Time: 2202ms
+Built at: 2020-01-14 23:10:57
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-58ba8bea97a6180402c4.js    829 KiB  application  [emitted] [immutable]  application
+js/application-58ba8bea97a6180402c4.js.map    883 KiB  application  [emitted] [dev]        application
+        js/article-e7ddc5ab44e6cab72b32.js    406 KiB      article  [emitted] [immutable]  article
+    js/article-e7ddc5ab44e6cab72b32.js.map    389 KiB      article  [emitted] [dev]        article
+                             manifest.json  675 bytes               [emitted]              
+Entrypoint application = js/application-58ba8bea97a6180402c4.js js/application-58ba8bea97a6180402c4.js.map
+Entrypoint article = js/article-e7ddc5ab44e6cab72b32.js js/article-e7ddc5ab44e6cab72b32.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 796 bytes {application} [built]
+[./app/javascript/packs/article.js] 655 bytes {article} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 4.7ms | Allocations: 1230)
+Completed 200 OK in 6805ms (Views: 6802.0ms | ActiveRecord: 0.7ms | Allocations: 12602)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 23:11:22 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:19
+  Rendered articles/index.html.erb within layouts/application (Duration: 12.0ms | Allocations: 1082)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.8ms | Allocations: 1230)
+Completed 200 OK in 77ms (Views: 73.3ms | ActiveRecord: 0.8ms | Allocations: 9610)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 23:11:52 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:19
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1075)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/OpenServer/domains/ruby.first/public/packs
+[Webpacker] Hash: 67d6b4efe4fe98de9a29
+Version: webpack 4.41.4
+Time: 2220ms
+Built at: 2020-01-14 23:11:58
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-26eecaa0dfacc88bdebe.js    829 KiB  application  [emitted] [immutable]  application
+js/application-26eecaa0dfacc88bdebe.js.map    883 KiB  application  [emitted] [dev]        application
+        js/article-18a52410bbd8534ab2cf.js    406 KiB      article  [emitted] [immutable]  article
+    js/article-18a52410bbd8534ab2cf.js.map    389 KiB      article  [emitted] [dev]        article
+                             manifest.json  675 bytes               [emitted]              
+Entrypoint application = js/application-26eecaa0dfacc88bdebe.js js/application-26eecaa0dfacc88bdebe.js.map
+Entrypoint article = js/article-18a52410bbd8534ab2cf.js js/article-18a52410bbd8534ab2cf.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 796 bytes {application} [built]
+[./app/javascript/packs/article.js] 632 bytes {article} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 4.8ms | Allocations: 1230)
+Completed 200 OK in 6622ms (Views: 6618.6ms | ActiveRecord: 0.8ms | Allocations: 12397)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 23:28:07 +0700
+  [1m[35m (15.4ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:19
+  Rendered articles/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1078)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in D:/OpenServer/domains/ruby.first/public/packs
+[Webpacker] Hash: 9923104b223f7c91a3db
+Version: webpack 4.41.4
+Time: 6342ms
+Built at: 2020-01-14 23:28:23
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-ae89ef9b3015d34b9836.js    829 KiB  application  [emitted] [immutable]  application
+js/application-ae89ef9b3015d34b9836.js.map    883 KiB  application  [emitted] [dev]        application
+        js/article-c1812317a9d302ebe9e7.js    406 KiB      article  [emitted] [immutable]  article
+    js/article-c1812317a9d302ebe9e7.js.map    389 KiB      article  [emitted] [dev]        article
+                             manifest.json  675 bytes               [emitted]              
+Entrypoint application = js/application-ae89ef9b3015d34b9836.js js/application-ae89ef9b3015d34b9836.js.map
+Entrypoint article = js/article-c1812317a9d302ebe9e7.js js/article-c1812317a9d302ebe9e7.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 796 bytes {application} [built]
+[./app/javascript/packs/article.js] 643 bytes {article} {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 111 hidden modules
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 5.8ms | Allocations: 1244)
+Completed 200 OK in 544173ms (Views: 544168.9ms | ActiveRecord: 1.1ms | Allocations: 15299)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 23:37:11 +0700
+Started GET "/articles" for ::1 at 2020-01-14 23:37:11 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (3.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:19
+  Rendered articles/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 1096)
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:19
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 2083)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.6ms | Allocations: 1230)
+Completed 200 OK in 90ms (Views: 83.6ms | ActiveRecord: 3.7ms | Allocations: 14568)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 5.0ms | Allocations: 1056)
+Completed 200 OK in 59ms (Views: 57.4ms | ActiveRecord: 0.8ms | Allocations: 11959)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 23:37:16 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:19
+  Rendered articles/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 812)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.3ms | Allocations: 1056)
+Completed 200 OK in 51ms (Views: 48.9ms | ActiveRecord: 0.9ms | Allocations: 7940)
+
+
+Started POST "/articles" for ::1 at 2020-01-14 23:37:19 +0700
+Processing by ArticlesController#create as JSON
+  Parameters: {"person"=>{"firstName"=>"Yehuda", "lastName"=>"Katz"}, "article"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 400 Bad Request in 11ms (ActiveRecord: 0.4ms | Allocations: 2660)
+
+
+
+ActionController::ParameterMissing - param is missing or the value is empty: article:
+  app/controllers/articles_controller.rb:53:in `article_params'
+  app/controllers/articles_controller.rb:25:in `create'
+
+Started GET "/articles" for ::1 at 2020-01-14 23:39:29 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (Duration: 2.7ms | Allocations: 3157)
+  Rendered articles/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 3487)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.0ms | Allocations: 6125)
+
+
+
+NoMethodError - undefined method `errors' for nil:NilClass:
+  app/views/articles/_form.html.erb:3
+  app/views/articles/_form.html.erb:1
+  app/views/articles/new.html.erb:3
+  app/controllers/articles_controller.rb:11:in `block (2 levels) in index'
+  app/controllers/articles_controller.rb:10:in `index'
+
+Started POST "/__better_errors/af30f7a2f9cc9e61/variables" for ::1 at 2020-01-14 23:39:30 +0700
+  [1m[36mArticle Load (330.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+Started GET "/articles" for ::1 at 2020-01-14 23:39:56 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:19
+  Rendered articles/index.html.erb within layouts/application (Duration: 70.8ms | Allocations: 3888)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 283.7ms | Allocations: 16453)
+Completed 200 OK in 505ms (Views: 333.1ms | ActiveRecord: 149.5ms | Allocations: 28386)
+
+
+Started POST "/articles" for ::1 at 2020-01-14 23:39:59 +0700
+Processing by ArticlesController#create as JSON
+  Parameters: {"person"=>{"firstName"=>"Yehuda", "lastName"=>"Katz"}, "article"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 400 Bad Request in 5ms (ActiveRecord: 0.4ms | Allocations: 2656)
+
+
+
+ActionController::ParameterMissing - param is missing or the value is empty: article:
+  app/controllers/articles_controller.rb:58:in `article_params'
+  app/controllers/articles_controller.rb:30:in `create'
+
+Started GET "/articles" for ::1 at 2020-01-14 23:40:31 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:19
+  Rendered articles/index.html.erb within layouts/application (Duration: 11.9ms | Allocations: 1097)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.7ms | Allocations: 1237)
+Completed 200 OK in 181ms (Views: 151.4ms | ActiveRecord: 0.8ms | Allocations: 9654)
+
+
+Started GET "/articles?{%22person%22:{%22firstName%22:%22Yehuda%22,%22lastName%22:%22Katz%22}}" for ::1 at 2020-01-14 23:40:36 +0700
+Processing by ArticlesController#index as JSON
+  Parameters: {"{\"person\":{\"firstName\":\"Yehuda\",\"lastName\":\"Katz\"}}"=>nil, "article"=>{}}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:12:in `block (2 levels) in index'
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.4ms | Allocations: 1246)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 23:50:43 +0700
+  [1m[35m (67.9ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:19
+  Rendered articles/index.html.erb within layouts/application (Duration: 9.6ms | Allocations: 4258)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 55.1ms | Allocations: 15969)
+Completed 200 OK in 135ms (Views: 122.4ms | ActiveRecord: 1.1ms | Allocations: 29320)
+
+
+Started POST "/articles/subscribe" for ::1 at 2020-01-14 23:50:47 +0700
+Processing by ArticlesController#subscribe as JSON
+  Parameters: {"person"=>{"firstName"=>"Yehuda", "lastName"=>"Katz"}, "article"=>{}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:19:in `subscribe'
+Completed 200 OK in 17ms (Views: 2.6ms | ActiveRecord: 0.8ms | Allocations: 2786)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 23:52:06 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  Rendered articles/index.html.erb within layouts/application (Duration: 326.0ms | Allocations: 102571)
+Completed 500 Internal Server Error in 341ms (ActiveRecord: 0.4ms | Allocations: 103900)
+
+
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+
+NoMethodError - undefined method `url_to' for #<#<Class:0x000000000dcdf520>:0x000000000dcdd658>
+Did you mean?  url_for:
+  app/views/articles/index.html.erb:5
+
+Started POST "/__better_errors/1175c7654a5eef46/variables" for ::1 at 2020-01-14 23:52:07 +0700
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+Started GET "/articles" for ::1 at 2020-01-14 23:52:49 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:20
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1122)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.6ms | Allocations: 1230)
+Completed 200 OK in 93ms (Views: 88.9ms | ActiveRecord: 0.8ms | Allocations: 9636)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 23:53:14 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:20
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1120)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 4.3ms | Allocations: 1230)
+Completed 200 OK in 70ms (Views: 66.4ms | ActiveRecord: 0.7ms | Allocations: 9618)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 23:53:32 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  Rendered articles/index.html.erb within layouts/application (Duration: 1112.3ms | Allocations: 351219)
+Completed 500 Internal Server Error in 1137ms (ActiveRecord: 61.5ms | Allocations: 354378)
+
+
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+
+NameError - undefined local variable or method `subscribe_article_path' for #<#<Class:0x000000000a2ce570>:0x000000000a2cc568>
+Did you mean?  articles_subscribe_path:
+  app/views/articles/index.html.erb:5
+
+Started POST "/__better_errors/7ddd774c6ec21e3a/variables" for ::1 at 2020-01-14 23:53:34 +0700
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+Started GET "/articles" for ::1 at 2020-01-14 23:53:51 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.1ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  Rendered articles/index.html.erb within layouts/application (Duration: 866.3ms | Allocations: 347780)
+Completed 500 Internal Server Error in 882ms (ActiveRecord: 1.8ms | Allocations: 349113)
+
+
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.1ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+
+NameError - undefined local variable or method `subscribe_path' for #<#<Class:0x0000000009ebede0>:0x0000000009ed6f80>:
+  app/views/articles/index.html.erb:5
+
+Started POST "/__better_errors/2f1038a9d1741e48/variables" for ::1 at 2020-01-14 23:53:52 +0700
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+Started GET "/articles" for ::1 at 2020-01-14 23:53:59 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.1ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  Rendered articles/index.html.erb within layouts/application (Duration: 995.4ms | Allocations: 348070)
+Completed 500 Internal Server Error in 1010ms (ActiveRecord: 1.7ms | Allocations: 349405)
+
+
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+
+NameError - undefined local variable or method `article_subscribe_path' for #<#<Class:0x0000000009ef7ed8>:0x0000000009ef4be8>
+Did you mean?  articles_subscribe_path
+               articles_subscribe_url:
+  app/views/articles/index.html.erb:5
+
+Started POST "/__better_errors/95d6e3d50771b9b5/variables" for ::1 at 2020-01-14 23:54:01 +0700
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+  [1m[36mCACHE Article Load (0.0ms)[0m  [1m[34mSELECT `articles`.* FROM `articles` LIMIT 11[0m
+Started GET "/articles" for ::1 at 2020-01-14 23:55:59 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:20
+  Rendered articles/index.html.erb within layouts/application (Duration: 49.4ms | Allocations: 4214)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 89.2ms | Allocations: 16503)
+Completed 200 OK in 209ms (Views: 121.4ms | ActiveRecord: 77.1ms | Allocations: 29814)
+
+
+Started POST "/articles/subscribe" for ::1 at 2020-01-14 23:56:05 +0700
+Processing by ArticlesController#subscribe as JSON
+  Parameters: {"person"=>{"firstName"=>"Yehuda", "lastName"=>"Katz"}, "article"=>{}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:19:in `subscribe'
+Completed 200 OK in 7ms (Views: 2.5ms | ActiveRecord: 0.7ms | Allocations: 2788)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 23:56:32 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:20
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1116)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.8ms | Allocations: 1230)
+Completed 200 OK in 69ms (Views: 65.5ms | ActiveRecord: 0.7ms | Allocations: 9638)
+
+
+Started POST "/articles/subscribe" for ::1 at 2020-01-14 23:56:34 +0700
+Processing by ArticlesController#subscribe as JSON
+  Parameters: {"{\"person\":{\"firstName\":\"Yehuda\",\"lastName\":\"Katz\"}}"=>nil}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:19:in `subscribe'
+Completed 200 OK in 7ms (Views: 2.7ms | ActiveRecord: 0.7ms | Allocations: 2784)
+
+
+Started GET "/articles" for ::1 at 2020-01-14 23:59:28 +0700
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/views/articles/index.html.erb:20
+  Rendered articles/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1149)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  ↳ app/views/devise/menu/_top.html.erb:1
+  Rendered devise/menu/_top.html.erb (Duration: 3.8ms | Allocations: 1245)
+Completed 200 OK in 88ms (Views: 84.8ms | ActiveRecord: 0.7ms | Allocations: 9686)
+
+
+Started POST "/articles/subscribe" for ::1 at 2020-01-14 23:59:29 +0700
+Processing by ArticlesController#subscribe as */*
+  Parameters: {"choices"=>["Jon", "Susan"]}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 2 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT `articles`.* FROM `articles`[0m
+  ↳ app/controllers/articles_controller.rb:19:in `subscribe'
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 0.6ms | Allocations: 2793)
+
+

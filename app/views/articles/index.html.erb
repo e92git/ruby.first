@@ -2,7 +2,10 @@
 <h1>Listing Articles</h1>
 
 <%= link_to 'New article', new_article_path %>
+
 <br>
+<br>
+<div><button class="article_send_ajax">Send ajax</button>: <span class="article_ajax_result">null</span></div>
 <br>
 
 <table>
@@ -26,3 +29,20 @@
     </tr>
   <% end %>
 </table>
+
+<script>
+
+    $('.article_send_ajax').click(function () {
+        jQuery.post('<%= url_for subscribe_path %>', { 'choices[]': [ "Jon", "Susan" ] });
+
+<!--        jQuery.ajax({-->
+<!--            type: 'POST',-->
+<!--            url: '<%= url_for subscribe_path %>',-->
+<!--            dataType: 'json',-->
+<!--            contentType: 'application/json',-->
+<!--            data: JSON.stringify({ person: { firstName: "Yehuda", lastName: "Katz" } }),-->
+<!--            success: function(json) { }-->
+<!--        });-->
+    });
+
+</script>
